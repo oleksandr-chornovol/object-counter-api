@@ -6,8 +6,7 @@ from collections import Counter
 
 app = Flask(__name__)
 
-# Load YOLOv5 pre-trained model
-model = YOLO('yolov5x.pt')  # Use YOLOv5x pre-trained model
+model = YOLO('yolov5xu.pt') # Load YOLOv5 pre-trained model
 
 def detect_and_count(image):
     """
